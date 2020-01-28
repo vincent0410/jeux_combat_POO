@@ -1,7 +1,9 @@
+
 class Player
 
   attr_accessor :name, :life_point  
 
+#on initialise la class, et on crée les méthodes pour combattre.
 
   def initialize(name)
     @name = name
