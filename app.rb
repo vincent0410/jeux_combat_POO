@@ -31,3 +31,7 @@ while player1.life_point > 0 && player2.life_point >0
   print player2.attacks(player1)
 
 end
+
+
+player3 = HumanPlayer.new ("jack")
+print player3.show_state
