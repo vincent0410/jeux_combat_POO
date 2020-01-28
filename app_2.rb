@@ -5,11 +5,23 @@ require_relative 'lib/game'
 require_relative 'lib/player'
 
 
-player3 = HumanPlayer.new ("jack")
-print player3.show_state
+puts "---------------------------------"
+puts "|    BIENVENUE DANS LE JEUX     |"
+puts "---------------------------------"
 
-puts player3.compute_damage
-puts player3.search_weapon
-puts @weapon_level
-puts player3.search_health_pack
-print player3.show_state
+puts "Quel est ton prénom ?"
+prenom=gets.chomp
+
+player3 = HumanPlayer.new(prenom)
+player4 = Player.new ("josé")
+player5 = Player.new ("josiane")
+
+enemies = [player4, player5]
+
+while player3.life_point>0 && (player4.life_point>0 || player5.life_point>0) 
+
+end
+
+
+
+

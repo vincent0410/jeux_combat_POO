@@ -33,5 +33,3 @@ while player1.life_point > 0 && player2.life_point >0
 end
 
 
-player3 = HumanPlayer.new ("jack")
-print player3.show_state

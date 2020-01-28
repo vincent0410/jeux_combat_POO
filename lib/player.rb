@@ -1,3 +1,4 @@
+#classe player correspondant au premier exercice
 
 class Player
 
@@ -43,6 +44,7 @@ class Player
   end
 end
 
+#class HumanPlayer correspondant au deuxiéme exercice.
 
 class HumanPlayer<Player
 
